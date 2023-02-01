@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(25, 29, 28);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    font: "'Trebuchet MS'";
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px ;
+    font-size: large;
+    margin: 3px;
+    
+}
+.header {
+    background-color: rgb(91, 5, 108);
+    min-height: 150px;
+    margin: 3px;
+    margin-left: 0px;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 15px;
+    font-size: large;
+    color: #000000;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    padding: 1px;
+    margin: 3px;
+    margin-left: 0px;
+    font: "'Trebuchet MS'" ;
+    color: #f9f9f9;
+}
+.quote{
+
+    font-size: medium;
+    font: "'Trebuchet MS'";
+}
+.lucio{
+    font-size: small;
+    padding-top: 0px;
+    font: "'Trebuchet MS'";
+}
+.titulosobrenos{
+    font-size: large;
+    padding-bottom: 0px;
+}
+thead{
+    background-color: rgb(65, 44, 108);
+    color: #f9f9f9;
+}
+.valores{
+    font-size: small;
+}
+.contato{
+    font-size: small;
+}
+
+.content iframe{
+
+    max-height: 100px;
+    max-width: 500px;
+    padding-bottom: 0px;
+    align-self: center;
+}
+
+
+
+
