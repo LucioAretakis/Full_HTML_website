@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .row{
+            margin: 5px;
+            padding: 5px;
+        }
+        button{
+            margin: 5px;
+            display: inline-block;
+        }
+
+        label{
+            width: 80px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        fieldset{
+            margin: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            align-self: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página principal</a></li><br>
+                <li><a href="sobre.html">Sobre nós</a></li><br>
+                <li><a href="horarios.html">Horário de atendimento</a></li><br>
+                <li><a href="#">Contato</a></li><br>
+                
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="fotos/clinica-geral-header-img.jpg" width="850px" height="210px">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <div class="formulario">
+                    <form method="post">
+                    <fieldset>
+                        <label>Nome:</label><input type="text"><br>
+                        <label>E-mail</label><input type="email">
+                        <label>Assunto:</label><input type="text"><br>
+                        <label>Mensagem:</label><br><textarea name="mensagem" cols="100" rows="10"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <Button type="reset">Limpar</Button>
+                    </fieldset>
+                    </form>
+                </div>
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.806616289339!2d-34.90435654978864!3d-8.121162583497048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fb22f7464dd%3A0x62640cdec68dab85!2sR.%20Bruno%20Veloso%20-%20Boa%20Viagem%2C%20Recife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1675257925240!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contato">
+                    <b><u>Telefone</u></b>:(88) 8888-8888 <b>||</b>
+                    <b><u>Celular</u></b>:(99) 9999-9999 <b>||</b>
+                   <b><u>Endereço</u></b>: R. Bruno Veloso - Boa Viagem, Recife 
+                </div>
+            </div>
+    
+            <div class="footer">
+                <ul>
+                    <li>Telefone para contato: (88) 8888-8888</li><br>
+                    <li>E-mail: clinicasaretakis@gmail.com</li><br>
+                    <li>Número Whatsapp: (99) 9999-9999</li>
+                </ul>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
